@@ -4,10 +4,9 @@ import  TicketSystem from './Components/TicketSystem/TicketSystem'
 import Footer from './components/Footer/Footer'
 import { ToastContainer } from 'react-toastify'
 import Loader from './components/Loader/Loader'
-import { useState } from 'react'
 
 const ticketData = async () => {
-  const res = await fetch('/ticketData.json')
+  const res = await fetch('ticketData.json')
   return res.json()
 }
 
@@ -26,4 +25,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;

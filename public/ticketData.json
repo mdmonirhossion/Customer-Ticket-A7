@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1001,
+    "title": "Login issue",
+    "description": "User unable to log in with valid credentials. The login page keeps refreshing without showing any error message.",
+    "customer": "Rahim Uddin",
+    "priority": "HIGH-PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-09-20"
+  },
+  {
+    "id": 1002,
+    "title": "Payment failure",
+    "description": "Transaction declined during checkout. Customer reported that the payment gateway shows an error despite sufficient balance.",
+    "customer": "Karim Hossain",
+     "priority": "LOW-PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2025-09-20"
+  },
+  {
+    "id": 1003,
+    "title": "Slow website",
+    "description": "Website takes too long to load on mobile devices, especially on 4G connections. The issue seems consistent across different browsers.",
+    "customer": "Selina Akter",
+     "priority": "MEDIUM-PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-09-21"
+  },
+  {
+    "id": 1004,
+    "title": "Profile update error",
+    "description": "Customer unable to update phone number in profile. The update form reloads but the information remains unchanged.",
+    "customer": "Abdullah Al Noman",
+    "priority": "LOW-PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-09-21"
+  },
+  {
+    "id": 1005,
+    "title": "Order not received",
+    "description": "Customer did not receive the order placed last week. Tracking details show 'in transit' but no further updates are available.",
+    "customer": "Mitu Chowdhury",
+    "priority": "HIGH-PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-09-21"
+  },
+  {
+    "id": 1006,
+    "title": "Refund request",
+    "description": "Customer requested refund for duplicate payment. The system shows two transactions for the same order ID.",
+    "customer": "Rashed Khan",
+     "priority": "MEDIUM-PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2025-09-22"
+  },
+  {
+    "id": 1007,
+    "title": "App crash",
+    "description": "Mobile app crashes after login on Android devices. The issue occurs mostly on Android 12 and above.",
+    "customer": "Nusrat Jahan",
+     "priority": "LOW-PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-09-22"
+  },
+  {
+    "id": 1008,
+    "title": "Email not delivered",
+    "description": "Customer not receiving confirmation emails after order placement. Checked spam folder but emails are missing.",
+    "customer": "Hasib Mahmud",
+    "priority": "HIGH-PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2025-09-22"
+  },
+  {
+    "id": 1009,
+    "title": "UI alignment issue",
+    "description": "Buttons not aligned properly on the homepage. On smaller screens the layout breaks and overlaps with text.",
+    "customer": "Shila Rahman",
+    "priority": "LOW-PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2025-09-23"
+  },
+  {
+    "id": 1010,
+    "title": "Account locked",
+    "description": "Customer account locked after multiple failed attempts. Password reset link also not working.",
+    "customer": "Tanvir Ahmed",
+    "priority": "HIGH-PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-09-23"
+  },
+  {
+    "id": 1011,
+    "title": "Subscription issue",
+    "description": "Monthly subscription not renewed automatically despite active payment method. Customer had to renew manually.",
+    "customer": "Farhana Akter",
+     "priority": "MEDIUM-PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-09-23"
+  },
+  {
+    "id": 1012,
+    "title": "Wrong item delivered",
+    "description": "Customer received a different item instead of the ordered product. The invoice shows correct item but delivery mismatched.",
+    "customer": "Sajidul Islam",
+    "priority": "HIGH-PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-09-24"
+  }
+]
