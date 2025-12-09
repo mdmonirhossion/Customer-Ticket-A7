@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react'
 import Navbar from './components/Navbar/Navbar'
-import  TicketSystem from './Components/TicketSystem/TicketSystem'
+import  TicketSystem from './components/TicketSystem/TicketSystem'
 import Footer from './components/Footer/Footer'
 import { ToastContainer } from 'react-toastify'
 import Loader from './components/Loader/Loader'

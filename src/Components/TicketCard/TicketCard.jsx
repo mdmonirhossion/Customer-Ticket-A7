@@ -2,7 +2,8 @@ import React from "react";
 // import caldenderImage from "../assets/ri_calendar-line.png";
 import caldenderImage from "../../assets/ri_calendar-line.png";
 
-const TicketCard = ({ ticeking, handleAddToInProgress }) => {
+
+ const TicketCard = ({ ticeking }) => {
   const statusColors = {
     Open: {
       bg: "bg-green-100 text-green-600",
@@ -26,7 +27,7 @@ const TicketCard = ({ ticeking, handleAddToInProgress }) => {
 
   return (
     <div
-      onClick={() => handleAddToInProgress(ticeking)}
+      // onClick={() => handleAddToInProgress(ticeking)}
       className="bg-white rounded-lg shadow p-4 flex flex-col gap-3 cursor-pointer"
     >
       <div className="flex justify-between items-start">

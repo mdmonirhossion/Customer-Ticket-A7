@@ -1,7 +1,7 @@
 import React, { use, useEffect, useState } from "react";
 import TicketCarts from "../TicketCarts/TicketCarts";
 import TicketCard from "../TicketCard/TicketCard";
- import Tasked from "../Tasked/Tasked";
+ import Tasked from "./Tasked/Tasked";
 import { toast } from "react-toastify";
 
 const TicketSystem = ({ tiketDataPromise }) => {
